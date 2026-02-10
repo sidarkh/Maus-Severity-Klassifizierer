@@ -29,9 +29,6 @@ print(f"\nDatensatz geladen: {df.shape[0]} Messungen")
 print(f"Anzahl Tiere: {df['id'].nunique()}")
 print(f"DSS-Dosen: {sorted(df['DSS'].unique())}")
 
-###############################################################################
-# AUFGABE 1: CHARAKTERISIERUNG DER VARIABLEN
-###############################################################################
 
 print("\n" + "="*70)
 print("AUFGABE 1: CHARAKTERISIERUNG BEIDER VARIABLEN")
@@ -124,9 +121,6 @@ plt.savefig('02_boxplots_zeitpunkte.png', dpi=300, bbox_inches='tight')
 print("✓ Grafik gespeichert: 02_boxplots_zeitpunkte.png")
 plt.close()
 
-###############################################################################
-# AUFGABE 2: MACHINE LEARNING CLASSIFIER
-###############################################################################
 
 print("\n" + "="*70)
 print("AUFGABE 2: MACHINE LEARNING CLASSIFIER")
@@ -280,10 +274,6 @@ print(f"\n{'='*70}")
 print(f"BESTER CLASSIFIER: {best_model_name}")
 print(f"Test Accuracy: {results[best_model_name]['accuracy']:.3f}")
 print(f"{'='*70}")
-
-###############################################################################
-# AUFGABE 3: STATISTISCHE BESCHREIBUNG
-###############################################################################
 
 print("\n" + "="*70)
 print("AUFGABE 3: STATISTISCHE BESCHREIBUNG")
@@ -458,9 +448,9 @@ plt.savefig('08_cv_comparison.png', dpi=300, bbox_inches='tight')
 print("✓ Grafik gespeichert: 08_cv_comparison.png")
 plt.close()
 
-###############################################################################
+
 # ZUSAMMENFASSUNG
-###############################################################################
+
 
 print("\n" + "="*70)
 print("ZUSAMMENFASSUNG")
